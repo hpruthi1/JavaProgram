@@ -28,9 +28,9 @@ class complexDemoStatic {
   complex c2=new complex(3,4);
   complex c3=new complex();
   c3=add(c1,c2);
-  System.out.print("c1 ="+c1.real + " " + c1.imaginary);
-   System.out.print("c2 ="+c2.real + " " + c2.imaginary);
-   System.out.print("Sum ="+c3.real + " " + c3.imaginary);
+  System.out.print("c1 ="+c1.getReal + " " + c1.imaginary);
+   System.out.print("c2 ="+c2.getReal + " " + c2.imaginary);
+   System.out.print("Sum ="+c3.getReal + " " + c3.imaginary);
   }
 
   public static complex add(complex c1, complex c2) {
